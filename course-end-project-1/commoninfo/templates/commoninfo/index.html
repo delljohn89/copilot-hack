@@ -1,0 +1,13 @@
+{% extends "commoninfo/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <p class="text-center text-muted mb-4">
+        Register a new patient or check whether a patient is already registered.
+    </p>
+    <div class="d-grid gap-3 col-8 mx-auto">
+        <a class="btn btn-primary btn-lg" href="{% url 'add' %}">Register</a>
+        <a class="btn btn-outline-primary btn-lg" href="{% url 'fetch' %}">Check</a>
+    </div>
+{% endblock %}

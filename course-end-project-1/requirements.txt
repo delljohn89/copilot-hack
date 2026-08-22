@@ -1,0 +1,7 @@
+# Course environment (as specified in the project brief):
+#   Python 2.7
+#   Django 1.8
+#
+# The project also runs unchanged on Python 3 with Django up to 3.2
+# (it uses the url()/regex URL routing common to both).
+Django==1.8
